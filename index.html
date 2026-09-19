@@ -12,6 +12,7 @@ body{
   font-family:Arial,"Noto Sans Devanagari",sans-serif;
   background:#fff8ed;
   color:#3b210e;
+  line-height:1.6;
 }
 header{
   background:linear-gradient(135deg,#8b2f00,#f28c18);
@@ -26,13 +27,16 @@ nav{
   background:#5b2108;
   text-align:center;
   padding:12px;
+  position:sticky;
+  top:0;
 }
 nav a{
   color:white;
   text-decoration:none;
-  margin:0 8px;
+  margin:0 12px;
   font-weight:bold;
 }
+nav a:hover{color:#ffd280}
 .hero{
   text-align:center;
   padding:40px 20px;
@@ -49,7 +53,7 @@ nav a{
   border-radius:18px;
   box-shadow:0 4px 15px #0002;
 }
-.card h2{color:#b44b00}
+.card h2{color:#b44b00;margin-top:0}
 .social{
   display:flex;
   flex-wrap:wrap;
@@ -65,6 +69,10 @@ nav a{
   color:white;
   text-decoration:none;
   font-weight:bold;
+  transition:0.2s ease;
+}
+.social a:hover{
+  background:#f28c18;
 }
 footer{
   margin-top:40px;
@@ -116,6 +124,16 @@ footer{
   <h2>📱 हमसे जुड़ें</h2>
 
   <div class="social">
-    <a href="#" target="_blank">Facebook</a>
-    <a href="#" target="_blank">Instagram</a>
-    <a href="#" target="_blank">
+    <a href="https://www.facebook.com/share/1EwVW921h9/" target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a href="https://www.instagram.com/manjeet___sharma_?stkn=aXZmdWsyY3BqaHA1" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.youtube.com/@SanatanDharmak3" target="_blank" rel="noopener noreferrer">YouTube</a>
+  </div>
+</section>
+
+<footer>
+  <p>© सनातन संसार। सर्वाधिकार सुरक्षित।</p>
+  <p>सत्यमेव जयते • सर्वे भवन्तु सुखिनः</p>
+</footer>
+
+</body>
+</html>
